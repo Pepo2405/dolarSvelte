@@ -46,7 +46,7 @@
 
 		<svelte:fragment slot="panel">
 			<div>
-				<div class="grid gap-4 grid-cols-1 md:grid-cols-2">
+				<div class="grid gap-4 grid-cols-2 md:grid-cols-2">
 					{#each Object.keys(data[tabSet]) as dolarType}
 						<label class="label grow flex-wrap">
 							<span class="capitalize text-lg">{dolarType}</span>
@@ -64,7 +64,7 @@
 
 				<label class="label my-4">
 					<span class="text-xl">Calcular</span>
-					<input class="input" type="number" placeholder="$ 100" bind:value={amount} />
+					<input class="input" type="number" placeholder="$ 1" bind:value={amount} />
 				</label>
 			</div></svelte:fragment
 		>
