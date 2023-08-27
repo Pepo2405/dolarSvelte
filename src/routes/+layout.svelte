@@ -23,7 +23,7 @@
 	<!-- ---- / ---- -->
 	<svelte:fragment slot="pageFooter">
 		<div class="flex p-4 bg-slate-900">
-			<span> Datos obtenidos de dolarHoy</span>
+			<span> Desarrollado por Ignacio Iglesias</span>
 		</div>
 	</svelte:fragment>
 	<!-- (footer) -->
